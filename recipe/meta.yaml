@@ -1,5 +1,5 @@
 {% set name = "selfeeg" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/selfeeg-{{ version }}.tar.gz
-  sha256: 9fbf541438d36d5dd000bf2a8f02d35765020ba9b45048618f02cd63485a92c7
+  sha256: 846419a4de9cc1496fed6e5b95e7ffe2a3355d670866e43a3efccc0d81b0a6a0
 
 build:
   noarch: python
